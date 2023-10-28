@@ -1,11 +1,12 @@
 import React from 'react'
 import "./components.css"
+import HeaderIcon from "../logos/header-icon.png"
 
 const Header = () => {
   return (
     <div className='header'>
       <div className='logo-div'>
-      <img src='' alt='logo'/>
+      <img src={HeaderIcon} alt='logo'/>
       </div>
       <div>
       <img src='' alt='nav'/>
