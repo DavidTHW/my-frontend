@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
 import {Route, Routes } from "react-router"
 import Landing from "./containers/Landing"
 
