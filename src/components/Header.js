@@ -8,6 +8,7 @@ const Header = () => {
       <div className='logo-div'>
       <img src={HeaderIcon} alt='logo'/>
       </div>
+     
       <div>
       <img src='' alt='nav'/>
       <>temp nav</>
@@ -16,6 +17,7 @@ const Header = () => {
       <img src='' alt='nav2'/>
       <>temp nav</>
       </div>
+      
       <div className='profile'>
       <img src='' alt='profile'/>
       <div>Placeholder name</div>
