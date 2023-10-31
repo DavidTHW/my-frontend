@@ -1,8 +1,11 @@
-import React from 'react'
+import React , {useState } from 'react'
 import "./components.css"
 import HeaderIcon from "../logos/header-icon.png"
 
 const Header = () => {
+
+const [tempName , setTempName] = useState('Unknown')
+
   return (
     <div className='header'>
       <div className='logo-div'>
@@ -10,17 +13,17 @@ const Header = () => {
       </div>
      
       <div>
-      <img src='' alt='nav'/>
-      <>temp nav</>
+      {/* <img src='' alt='nav'/> */}
+      <>Movies</>
       </div>
       <div>
-      <img src='' alt='nav2'/>
-      <>temp nav</>
+      {/* <img src='' alt='nav2'/> */}
+      <>Reviews</>
       </div>
       
       <div className='profile'>
-      <img src='' alt='profile'/>
-      <div>Placeholder name</div>
+      {/* <img src='' alt='profile'/> */}
+      <div>Welcome : {tempName}</div>
       </div>
 
     </div>
