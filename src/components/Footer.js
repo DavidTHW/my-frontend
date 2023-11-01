@@ -1,12 +1,13 @@
 import React from 'react'
 import "./components.css"
+import ProfileIcon from "./../logos/profile.png"
 
 const Footer = () => {
   return (
     
       <div className='footer'>
-        <div>
-        <img src=''/> Contact me
+        <div className='contact-me'>
+        <a href="mailto:david.tonghw@gmail.com"><img src={ProfileIcon} /> Contact me </a>
         </div>
         <div>
         <img src=''/> About me

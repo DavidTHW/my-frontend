@@ -1,5 +1,5 @@
 .footer {
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     height: 10%;
     display: flex;
@@ -12,7 +12,7 @@
 }
 
 .header {
-    /* position: absolute;
+    /* position: fixed;
     top: 0; */
     display: flex;
     flex-direction: row;
@@ -34,9 +34,18 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
 }
 
 .movie-container {
-    margin: 10px;
+    margin: 15px;
     border: 2px black solid;
+    width: 50%;
+
+}
+
+.contact-me img {
+    object-fit: scale-down;
+    width : 20px;
+    height: auto;
 }

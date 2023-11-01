@@ -9,9 +9,10 @@ const Movies = ({movies}) => {
   <>
    {movies && movies.map((movie)=> {
     return (
-    <div key={movie.id} className='movie-container'>
+    <div key={movie.imdbId} className='movie-container'>
       <div>{movie.title}</div>
       <div>{movie.releaseDate}</div>
+      <div><img src={movie.poster}/></div>
       </div>
   )
   })}
