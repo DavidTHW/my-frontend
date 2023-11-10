@@ -7,14 +7,14 @@ const Footer = () => {
     
       <div className='footer'>
         <div className='contact-me'>
-        <a href="mailto:david.tonghw@gmail.com"><img src={ProfileIcon} /> Contact me </a>
+        <a href="mailto:david.tonghw@gmail.com"><img src={ProfileIcon} alt="contact" /> Contact me </a>
         </div>
         <div>
-        <img src=''/> About me
+        <img src=''/> About
         </div>
-        <div>
+        {/* <div>
         <img src=''/> About me
-        </div>
+        </div> */}
       </div>
   
   )
