@@ -27,7 +27,7 @@ const moviesUrl = "http://localhost:8080/api/v1/movies"
       <div className="body">
       <Movies movies={movies}/>
       </div>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   )
 }

@@ -15,7 +15,9 @@ const [tempName , setTempName] = useState('Unknown')
      <Link to="/">
       <div>
       {/* <img src='' alt='nav'/> */}
+      <Link to="/">
       <>Movies</>
+      </Link>
       </div>
       </Link>
       <Link to="/series">
