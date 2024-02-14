@@ -6,6 +6,7 @@ import axios from 'axios'
 
 const Series = () => {
 
+//to change to actual series api
 const seriesUrl = "http://localhost:8080/api/v1/movies"
 
   const [series , setSeries] = useState()

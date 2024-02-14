@@ -19,13 +19,12 @@ const moviesUrl = "http://localhost:8080/api/v1/movies"
   useEffect(()=> {
     getAllMovies()
   },[])
-  console.log(movies)
 
   return (
     <div>
       <Header/>
       <div className="body">
-      <Movies movies={movies}/>
+      <Movies movies={movies} banner={'Movies'}/>
       </div>
       {/* <Footer/> */}
     </div>
