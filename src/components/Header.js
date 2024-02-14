@@ -1,6 +1,7 @@
 import React , {useState } from 'react'
 import "./components.css"
 import HeaderIcon from "../logos/header-icon.png"
+import {Link} from "react-router-dom"
 
 const Header = () => {
 
@@ -11,15 +12,20 @@ const [tempName , setTempName] = useState('Unknown')
       <div className='logo-div'>
       <img src={HeaderIcon} alt='logo'/>
       </div>
-     
+     <Link to="/">
       <div>
       {/* <img src='' alt='nav'/> */}
+      <Link to="/">
       <>Movies</>
+      </Link>
       </div>
+      </Link>
+      <Link to="/series">
       <div>
       {/* <img src='' alt='nav2'/> */}
-      <>Reviews</>
+      <>Series</>
       </div>
+      </Link>
       
       <div className='profile'>
       {/* <img src='' alt='profile'/> */}
